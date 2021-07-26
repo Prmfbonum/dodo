@@ -1,0 +1,33 @@
+.footer {
+  background-color: #464c55;
+}
+
+.section__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 26px;
+  color: #ffffff;
+  outline: white solid 1px;
+}
+.gain {
+  display: block;
+  text-align: left;
+
+  width: 299px;
+  font-size: 16px;
+}
+.count {
+  display: block;
+  text-align: left;
+  width: 241px;
+  font-size: 16px;
+}
+.count__text {
+  color: hsla(0, 0%, 100%, 0.7);
+  line-height: 22px;
+}
+.gain__text {
+  color: hsla(0, 0%, 100%, 0.7);
+  line-height: 22px;
+}

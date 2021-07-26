@@ -1,4 +1,9 @@
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.container {
+  margin: 0 auto;
+  width: 1060px;
+}
