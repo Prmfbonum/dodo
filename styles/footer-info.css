@@ -19,7 +19,7 @@ p {
   width: 299px;
 }
 
-.footer-total_item {
+.footer-total__item {
   font-size: 26px;
   font-style: normal;
   font-weight: 600;
@@ -27,7 +27,7 @@ p {
   letter-spacing: 0em;
 }
 
-.footer-total_text {
+.footer-total__text {
   color: hsla(0, 0%, 100%, 0.7);
   line-height: 22px;
   margin-top: 12px;
