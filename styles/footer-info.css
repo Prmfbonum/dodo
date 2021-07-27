@@ -14,9 +14,12 @@ p {
   margin-top: 93px;
 }
 
-.footer-totalmoney {
+.footer-total {
   text-align: left;
   width: 299px;
+}
+
+.footer-total_item {
   font-size: 26px;
   font-style: normal;
   font-weight: 600;
@@ -24,28 +27,7 @@ p {
   letter-spacing: 0em;
 }
 
-.footer-totalpizza {
-  text-align: left;
-  width: 241px;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 26px;
-  letter-spacing: 0em;
-}
-
-.footer-totalmoney_text {
-  color: hsla(0, 0%, 100%, 0.7);
-  line-height: 22px;
-  margin-top: 12px;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0em;
-  text-align: left;
-}
-
-.footer-totalpizza_text {
+.footer-total_text {
   color: hsla(0, 0%, 100%, 0.7);
   line-height: 22px;
   margin-top: 12px;
