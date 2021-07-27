@@ -4,7 +4,6 @@
 
 .footer-number {
   color: #fff;
-  font-style: normal;
   font-weight: 600;
   font-size: 26px;
   line-height: 26px;
@@ -12,8 +11,6 @@
 
 .footer-call {
   margin-top: 6px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 15px;
   line-height: 20px;
   opacity: 0.5;
@@ -22,8 +19,6 @@
 
 .footer-mail {
   color: #fff;
-  font-style: normal;
-  font-weight: normal;
   font-size: 15px;
   line-height: 20px;
   text-align: right;
@@ -44,12 +39,8 @@
 }
 
 @media (max-width: 1200px) {
-  .footer-number {
-    display: none;
-  }
-  .footer-call {
-    display: none;
-  }
+  .footer-number,
+  .footer-callб,
   .footer-mail {
     display: none;
   }

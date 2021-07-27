@@ -21,7 +21,7 @@
 
 .section__footer {
   display: flex;
-  align-items: baseline;
+  justify-content: space-between;
   font-size: 26px;
   color: #ffffff;
   margin-top: 93px;
