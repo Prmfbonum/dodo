@@ -1,17 +1,7 @@
-h1,
-h2,
-h3,
-p {
-  margin: 0;
-  padding: 0;
-}
-
 .footer-info {
   display: flex;
   justify-content: space-between;
-  font-size: 26px;
   color: #ffffff;
-  margin-top: 93px;
 }
 
 .footer-total {
@@ -25,12 +15,16 @@ p {
   font-weight: 600;
   line-height: 26px;
   letter-spacing: 0em;
+  margin: 0;
+  padding: 0;
 }
 
 .footer-total__text {
   color: hsla(0, 0%, 100%, 0.7);
   line-height: 22px;
   margin-top: 12px;
+  margin-bottom: 0;
+  padding: 0;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
