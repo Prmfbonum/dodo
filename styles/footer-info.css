@@ -1,25 +1,12 @@
-.footer {
-  background-color: #464c55;
-  padding-top: 90px;
-  padding-bottom: 40px;
-  color: #ffffff;
-}
-.footer-nav-box {
-  display: flex;
-}
-.footer-nav-box__item {
-  flex: 1;
-}
-.footer-nav-box__item_left {
-  flex-basis: 66%;
-  margin-right: 10px;
-}
-.footer-nav-box__item_right {
-  flex-basis: 33%;
-  margin-left: 10px;
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
 }
 
-.section__footer {
+.footer-info {
   display: flex;
   justify-content: space-between;
   font-size: 26px;
@@ -28,22 +15,43 @@
 }
 
 .footer-totalmoney {
-  display: block;
   text-align: left;
   width: 299px;
-  font-size: 16px;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
 }
+
 .footer-totalpizza {
-  display: block;
   text-align: left;
   width: 241px;
-  font-size: 16px;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
 }
+
 .footer-totalmoney_text {
   color: hsla(0, 0%, 100%, 0.7);
   line-height: 22px;
+  margin-top: 12px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
 }
+
 .footer-totalpizza_text {
   color: hsla(0, 0%, 100%, 0.7);
   line-height: 22px;
+  margin-top: 12px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
 }

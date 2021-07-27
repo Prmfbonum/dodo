@@ -6,12 +6,14 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .container {
   margin: 0 auto;
   width: 1060px;
   padding-left: 30px;
   padding-right: 30px;
 }
+
 .main {
   flex: 1;
 }
