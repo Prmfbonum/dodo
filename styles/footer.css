@@ -1,3 +1,8 @@
+@import "./footer-menu.css";
+@import "./footer-contacts.css";
+@import "./footer-copy.css";
+@import "./footer-info.css";
+
 .footer {
   background-color: #464c55;
   padding-top: 90px;
@@ -14,11 +19,26 @@
 }
 
 .footer-nav-box__item_left {
-  flex-basis: 66%;
-  margin-right: 10px;
 }
 
 .footer-nav-box__item_right {
+}
+
+.footer__menu {
   flex-basis: 33%;
   margin-left: 10px;
+}
+
+.footer__info {
+  margin-top: 93px;
+  width: 66.6%;
+  margin-right: 10px;
+}
+
+.footer__copy {
+  margin-top: 40px;
+}
+
+.footer__contacts {
+  flex-basis: 33, 33%;
 }

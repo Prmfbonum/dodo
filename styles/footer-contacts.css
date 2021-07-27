@@ -1,15 +1,17 @@
 .footer-contacts {
   text-align: right;
+  color: #ffffff;
 }
 
-.footer-number {
+.footer-contacts__number {
+  text-decoration: none;
   color: #fff;
   font-weight: 600;
   font-size: 26px;
   line-height: 26px;
 }
 
-.footer-call {
+.footer-contacts__call {
   margin-top: 6px;
   font-size: 15px;
   line-height: 20px;
@@ -17,7 +19,8 @@
   color: #fff;
 }
 
-.footer-mail {
+.footer-contacts__mail {
+  text-decoration: none;
   color: #fff;
   font-size: 15px;
   line-height: 20px;
@@ -26,7 +29,7 @@
   margin-top: 26px;
 }
 
-.footer-img {
+.footer-contacts__img {
   height: auto;
   width: 135px;
   max-width: 50%;
@@ -34,14 +37,14 @@
   margin-bottom: 29px;
 }
 
-.img-container {
-  display: flex;
+.footer-contacts__img__container {
+  display: block;
 }
 
-@media (max-width: 1200px) {
-  .footer-number,
-  .footer-call,
-  .footer-mail {
+@media (max-width: 1024px) {
+  .number,
+  .call,
+  .mail {
     display: none;
   }
   .footer-img {
