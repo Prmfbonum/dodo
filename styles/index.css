@@ -1,3 +1,5 @@
 @import url(modern-normalize.css);
-@import url(dodo.css);
+@import url(base.css);
 @import url(footer.css);
+@import url(footer-nav.css);
+@import url(footer-contacts.css);

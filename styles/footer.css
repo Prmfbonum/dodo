@@ -1,33 +1,49 @@
 .footer {
   background-color: #464c55;
+  padding-top: 90px;
+  padding-bottom: 40px;
+  color: #ffffff;
+}
+.footer-nav-box {
+  display: flex;
+}
+.footer-nav-box__item {
+  flex: 1;
+}
+.footer-nav-box__item_left {
+  flex-basis: 66%;
+  margin-right: 10px;
+}
+.footer-nav-box__item_right {
+  flex-basis: 33%;
+  margin-left: 10px;
 }
 
 .section__footer {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  align-items: baseline;
   font-size: 26px;
   color: #ffffff;
-  outline: white solid 1px;
+  margin-top: 93px;
 }
-.gain {
+
+.footer-totalmoney {
   display: block;
   text-align: left;
-
   width: 299px;
   font-size: 16px;
 }
-.count {
+.footer-totalpizza {
   display: block;
   text-align: left;
   width: 241px;
   font-size: 16px;
 }
-.count__text {
+.footer-totalmoney_text {
   color: hsla(0, 0%, 100%, 0.7);
   line-height: 22px;
 }
-.gain__text {
+.footer-totalpizza_text {
   color: hsla(0, 0%, 100%, 0.7);
   line-height: 22px;
 }
