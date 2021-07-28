@@ -1,0 +1,20 @@
+.header {
+  padding-top: 0;
+  padding-bottom: 0;
+  color: #ffffff;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu-list {
+  display: flex;
+  justify-content: space-between;
+  width: 467px;
+  height: 19px;
+  margin: 0;
+  padding: 0;
+}

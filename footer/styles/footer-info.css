@@ -31,3 +31,9 @@
   letter-spacing: 0em;
   text-align: left;
 }
+
+@media (max-width: 480px) {
+  .footer-info {
+    display: none;
+  }
+}

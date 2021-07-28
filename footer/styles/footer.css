@@ -1,7 +1,7 @@
-@import "./footer-menu.css";
-@import "./footer-contacts.css";
-@import "./footer-copy.css";
-@import "./footer-info.css";
+@import "footer-menu.css";
+@import "footer-contacts.css";
+@import "footer-copy.css";
+@import "footer-info.css";
 
 .footer {
   background-color: #464c55;
@@ -16,12 +16,6 @@
 
 .footer-nav-box__item {
   flex: 1;
-}
-
-.footer-nav-box__item_left {
-}
-
-.footer-nav-box__item_right {
 }
 
 .footer__menu {
@@ -40,5 +34,11 @@
 }
 
 .footer__contacts {
-  flex-basis: 33, 33%;
+  flex-basis: 33.33%;
+}
+
+@media (min-width: 480px) {
+  .footer {
+    padding-top: 20px;
+  }
 }
