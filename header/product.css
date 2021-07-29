@@ -70,3 +70,15 @@
   background: rgb(255, 227, 209);
   transition: 0.3s;
 }
+
+@media (max-width: 1024px) {
+  .product-wraper {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .product {
+    display: flex;
+    flex-direction: row;
+  }
+  .
+}
