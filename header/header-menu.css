@@ -77,13 +77,6 @@
   text-align: left;
 }
 
-@media (max-width: 1024px) {
-  .header-right-item,
-  .header-logo-text__text {
-    display: none;
-  }
-}
-
 .header-menu__link {
   text-decoration: none;
   transition: 0.3s;
@@ -105,4 +98,14 @@
   font-weight: 600;
   line-height: 22px;
   cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .header-top__text__text {
+    display: none;
+  }
+  .header-top__left {
+    display: flex;
+    align-items: center;
+  }
 }
