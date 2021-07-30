@@ -96,7 +96,7 @@
   font-weight: 400;
   line-height: 19px;
   text-align: left;
-  color: rgba(0, 0, 0, 1);
+  color: #73798c;
 }
 
 .product__info {
@@ -104,6 +104,13 @@
   justify-content: space-between;
   align-items: center;
   margin-top: auto;
+}
+.product__price {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  color: #000000;
 }
 
 .btn_secondary {
