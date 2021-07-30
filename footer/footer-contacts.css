@@ -37,19 +37,26 @@
   margin-bottom: 29px;
 }
 
-.footer-contacts__img__container {
-  display: block;
-}
+@media (max-width: 1024px) {
+  .footer-contacts {
+    display: flex;
+    flex-direction: column-reverse;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+  }
 
-@media (max-width: 480px) {
-  .number,
-  .call {
+  .footer-contacts__number,
+  .footer-contacts__call {
     display: none;
   }
-  .footer-img {
+  .footer-contacts__img {
     margin-top: 0;
     margin-bottom: 0;
   }
+  .footer-contacts__mail {
+  }
   .footer-contacts__img__container {
+    display: flex;
+    align-items: center;
   }
 }

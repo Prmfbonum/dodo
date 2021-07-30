@@ -36,3 +36,15 @@
 .footer__contacts {
   flex-basis: 33.33%;
 }
+
+@media (max-width: 1024px) {
+  .footer-container {
+    flex-direction: column;
+  }
+  .footer-copy {
+    margin-top: 0px;
+  }
+  .footer-nav-box {
+    flex-direction: column;
+  }
+}

@@ -17,7 +17,7 @@
 .footer-menu__list {
   list-style-type: none;
   margin: 0;
-  width: 137px;
+  width: 140px;
   padding: 0;
   opacity: 0.7;
 }
@@ -35,8 +35,6 @@
 }
 @media (max-width: 800px) {
   .footer-menu {
-    width: 600px;
-    height: 800px;
     display: inline-block;
     flex-direction: column;
   }

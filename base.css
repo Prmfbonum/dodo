@@ -9,12 +9,11 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 1060px;
+  max-width: 1060px;
   padding-left: 30px;
   padding-right: 30px;
   box-sizing: content-box;
 }
-
 .main {
   flex: 1;
 }

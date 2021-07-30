@@ -15,6 +15,7 @@
   margin: 0;
   padding: 0;
 }
+
 .header-menu__item {
   padding-right: 24px;
 }
@@ -61,7 +62,6 @@
 
 .header-top__number {
   text-decoration: none;
-  font-style: SemiBold;
   color: #000000;
   font-size: 18px;
   line-height: 25px;
@@ -74,7 +74,6 @@
   color: #999999;
   font-size: 15px;
   line-height: 20px;
-  text-align: left;
 }
 
 .header-menu__link {
@@ -86,6 +85,9 @@
 .header-menu__link:hover {
   color: #f96900;
   transition: 0.3s;
+}
+.header-menu__link:focus {
+  color: blueviolet;
 }
 
 .button {
@@ -107,5 +109,10 @@
   .header-top__left {
     display: flex;
     align-items: center;
+  }
+  .header-top__number,
+  .header-top__call,
+  .header-menu {
+    display: none;
   }
 }
