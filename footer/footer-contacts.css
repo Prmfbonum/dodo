@@ -53,9 +53,8 @@
     margin-bottom: 0;
   }
   .footer-contacts__mail {
+    text-align: left;
   }
   .footer-contacts__img__container {
-    display: flex;
-    align-items: center;
   }
 }
