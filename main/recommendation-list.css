@@ -65,7 +65,7 @@
     overflow: auto;
   }
 }
-@media (max-width: 500px) {
+@media (min-width: 1024px) {
   .header-menu {
     display: flex;
     justify-content: space-between;

@@ -3,11 +3,12 @@
   padding: 0;
   align-items: flex-start;
 }
+
 .footer-menu__description {
   display: flex;
   flex-direction: column;
-  width: 25%;
 }
+
 .footer-menu__name {
   font-size: 18px;
   font-weight: 600;
